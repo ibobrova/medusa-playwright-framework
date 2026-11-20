@@ -1,0 +1,27 @@
+{
+  "name": "medusa-playwright-framework",
+  "version": "1.0.0",
+  "description": "Test automation framework for Medusa, an open-source headless e-commerce platform.",
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibobrova/medusa-playwright-framework.git"
+  },
+  "keywords": [],
+  "author": "Julia Bobrova",
+  "license": "MIT",
+  "type": "commonjs",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/ibobrova/medusa-playwright-framework/issues"
+  },
+  "homepage": "https://github.com/ibobrova/medusa-playwright-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "typescript": "^7.0.2"
+  }
+}
