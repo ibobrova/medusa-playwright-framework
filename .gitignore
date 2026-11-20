@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Allure
+allure-results/
+allure-report/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor
+.DS_Store
+.vscode/
+
+# Logs
+*.log
